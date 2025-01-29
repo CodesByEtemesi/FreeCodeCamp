@@ -1,0 +1,45 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Adolf Hitler" />
+    <title id="title">Adolf Hitler</title>
+    <link rel="stylesheeet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <div id="img-div">
+        <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="" />
+        <div id="img-caption">
+        <p id="caption">The great Adolf Hitler</p>
+      </div>
+      </div>
+      
+      <div id="tribute-info">
+        <p>World Wars!</p>
+      </div>
+  
+        <a id="tribute-link" href="adolfhitler/wikipedia" value="tribute" target="_blank">Tribute Link</a>
+      
+      
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  display: block;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+** end of undefined **
+

@@ -1,0 +1,133 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <lang ="en">
+    <title>Etemesi Survey Form</title>
+    <link rel="stylesheet" href ="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill in the survey form to provide more insights.</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name-label"> Full Names <input type="text" id="name" placeholder="Please enter your full name" required/> </label>
+      <label id="email-label" for="email-label"> Email <input id="email" type="email" placeholder="Please enter your email" required/> </label>
+      <label id="number-label"> Phone Number<input id="number" type="number" min="10" max="13" placeholder="Phone number" /> </label>
+      <label for="current-role">Which option best describes your current role?
+        <select id="dropdown">
+          <option>(select one)</option>
+          <option>Student</option>
+          <option>Employed</option>
+          <option>Part-time job</option>
+          <option>Prefer not to say</option>
+        </select>
+      </label>
+      <p>Would you recommend us to a friend? </p>
+      <label for="definitely"><input id="definitely" type="radio" name="recommend" value="definitely" class="inline" checked/> Definitely </label>
+      <label for="maybe"> <input id="maybe" type="radio" name="recommend" value="maybe" class="inline" /> Maybe </label>
+      <label for="Not sure"> <input id="Not-sure" type="radio" name="recommend" value="not sure" class="inline" /> Not Sure</label>
+      <p>What would you like to see us improve?</p>
+      <label for="customer-service"> <input type="checkbox" id="customer-service" name="improve" value="customer-service" /> Customer Service </label>
+      <label for="cleanliness"> <input id="cleanliness" type="checkbox" nam="improve" value="cleanliness" /> Cleanliness </label>
+      <label for="time-management"> <input type="checkbox" id="time-management" name="improve" value="time-management" /> Time Management </label>
+      <label for="language"> <input id="language" type="checkbox" nam="improve" value="language" /> Language </label>
+
+      <p>Please write a brief description of how you'd like us to be better:</p>
+      <textarea id="description" name="description" rows="3" cols="39" placeholder="Implement..." > </textarea>
+      <input type="submit" value="Submit" id="submit">
+        
+    </form
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #0a0a23;
+    color: #0a0a23;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:  green;
+    border-color: green;
+    min-width: 300px;
+  }
+  
+  
+  .inline{
+    display: inline; 
+  }
+  
+  
+
+** end of undefined **
+
