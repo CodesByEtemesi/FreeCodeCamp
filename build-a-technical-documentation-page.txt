@@ -1,12 +1,14 @@
+** start of undefined **
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Eternal Herbal Store</title>
-    <link rel="stylesheet" href="herbal_tribute_doc.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <main id="main-doc">
     <nav id="navbar">
-      <header></header>
+      <header>Quicklinks</header>
       <a class="nav-link" href="#Introduction" >Introduction</a>
       <a class="nav-link" href="#Abstract" >Abstract</a>
       <a class="nav-link" href="#Problem_Statement" >Problem Statement</a>
@@ -53,3 +55,16 @@
   </main>
 
 </html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width:                           1199px) and (min-width: 769px) {
+  .main-section {
+    width: 675px;
+  }
+}
+
+** end of undefined **
+
