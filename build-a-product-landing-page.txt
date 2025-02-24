@@ -1,0 +1,167 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <img src="logo.png" id="header-img" alt="Company Logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#Features">Features</a>
+            <a class="nav-link" href="#submission">How It Works</a>
+            <a class="nav-link" href="#footer">Footer</a>
+        </nav>
+    </header>
+
+    <!-- Features Section -->
+    <section id="Features">
+        <video id="video" controls>
+            <source src="https://www.youtube.com/embed/A1Bm9KmPQ0o" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Subscription Form Section -->
+    <section id="submission">
+        <fieldset>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" id="submit" value="Subscribe">
+            </form>
+        </fieldset>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <p>Cheers!</p>
+    </footer>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#header-img {
+    width: 100px;
+    height: auto;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Features Section */
+#Features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 20px; /* Space for fixed navbar */
+}
+
+#video {
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Subscription Form Section */
+#submission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #333;
+    padding: 15px;
+    width: 300px;
+}
+
+input[type="email"], input[type="submit"] {
+    padding: 8px;
+    width: 100%;
+}
+
+/* Footer */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Features {
+        width: 100%;
+    }
+
+    fieldset {
+        width: 90%;
+    }
+}
+
+
+** end of undefined **
+
